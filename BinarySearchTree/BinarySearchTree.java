@@ -51,6 +51,16 @@ class BinarySearchTree {
 			}
 		}
 	}
+	public void reverse(TreeNode t){
+		if(t == null){
+			return t;
+		}
+		left = reverse(t.getleftchild());
+		right = reverse(t.getrightchild());
+		temp = left;
+		left = right;
+		right = temp;
+	}
 	public void print(){
 		System.out.print("[");
 		orderedPrint(root);
