@@ -9,6 +9,7 @@ class FindTopK {
 		printTopK(values, K);
 	}
 	
+	//incrementaly find the top k values using a priority queue of k length
 	private static void printTopK(int[] values, int K){			
 																	
 		
