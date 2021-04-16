@@ -60,16 +60,10 @@ public class IndexMinPQ<Key extends Comparable<Key>>
     	}
     }
 
-    // delete and return item with minimum key
-    public int delMin() {
-        /* enter your code */
-        return 0; // change appropriately
-    }
-
     // return item with minimum key
     public int minItem() {
-        /* enter your code */
-        return pq[0]; // change appropriately
+    
+        return pq[0]; 
     }
 
     // print pq, key and index arrays
@@ -98,11 +92,6 @@ public class IndexMinPQ<Key extends Comparable<Key>>
             PQ.insert(i,key);
         }
         PQ.printPQ();
-        while ( !PQ.isEmpty() ) {
-            int key = PQ.getKey(PQ.minItem());
-            int k = PQ.delMin();
-            System.out.println("delMin item " + k + " key " + key);
-        }
         long endTime = System.currentTimeMillis();
         long totalTime = endTime - startTime;
         System.out.println("total time = " + totalTime);
