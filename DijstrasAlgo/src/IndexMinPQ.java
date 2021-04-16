@@ -1,3 +1,7 @@
+//lab5
+//Bill Gewrgoulas cs02954
+//John Vamvas cs02944
+
 import java.io.*;
 import java.util.Random;
 
