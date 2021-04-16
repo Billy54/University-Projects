@@ -2,6 +2,8 @@
 //Bill Gewrgoulas cs02954
 //John Vamvas cs02944
 
+//o(logn) for insertions O(1) for min item 
+
 import java.io.*;
 import java.util.Random;
 
