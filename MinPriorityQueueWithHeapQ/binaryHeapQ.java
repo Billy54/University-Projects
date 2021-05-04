@@ -43,9 +43,9 @@ public class IndexMinPQ<Key extends Comparable<Key>>
         pq[N] = j ;
         keys[j] = key;
         index[j]=N;N++;
-        //fixUp(N); , sto del gia diagrafh, anti gia null = -1
+        fixUp(N); , sto del gia diagrafh, anti gia null = -1
         
-       //fixDown gia insert;
+       //fixDown();same thing for deletion as insertion
     }
     private boolean less(int i, int j){
     	return keys[pq[i]].compareTo(keys[pq[j]]) < 0;
