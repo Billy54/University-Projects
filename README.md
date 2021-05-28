@@ -1,3 +1,3 @@
 # University-Projects
-Some other university assignments.
+Various university assignments.
 
